@@ -10,7 +10,7 @@ services:
     restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=harshath4891
-      - MYSQL_DATABASE=wordpress1
+      - MYSQL_DATABASE=wordpress
       - MYSQL_USER=harshath
       - MYSQL_PASSWORD=harshath4891
     expose:
