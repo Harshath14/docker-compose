@@ -24,7 +24,7 @@ services:
       - 80:80
     restart: always
     environment:
-      - WORDPRESS_DB_HOST=wordpress.ct2qacwoeede.us-east-1.rds.amazonaws.com
+      - WORDPRESS_DB_HOST=wordpress.ct2qacwoeede.us-east-1.rds.amazonaws.co
       - WORDPRESS_DB_USER=harshath
       - WORDPRESS_DB_PASSWORD=harshath4891
       - WORDPRESS_DB_NAME=wordpress
